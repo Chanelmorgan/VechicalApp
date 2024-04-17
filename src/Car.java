@@ -18,6 +18,54 @@ public class Car extends Vehicle{
         this.currentGear = 1;
     }
 
+    public int getWheels() {
+        return wheels;
+    }
+
+    public void setWheels(int wheels) {
+        this.wheels = wheels;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+
+    public int getDoors() {
+        return doors;
+    }
+
+    public void setDoors(int doors) {
+        this.doors = doors;
+    }
+
+    public int getGears() {
+        return gears;
+    }
+
+    public void setGears(int gears) {
+        this.gears = gears;
+    }
+
+    public boolean isManual() {
+        return isManual;
+    }
+
+    public void setManual(boolean manual) {
+        isManual = manual;
+    }
+
+    public int getCurrentGear() {
+        return currentGear;
+    }
+
+    public void setCurrentGear(int currentGear) {
+        this.currentGear = currentGear;
+    }
+
     public void changeGear(int newGear){
         this.currentGear = newGear;
         System.out.println("Change gear method is called: Changed to " + this.currentGear + " gear.");
@@ -28,6 +76,8 @@ public class Car extends Vehicle{
         move(newSpeed, newDirection);
         System.out.println("Change speed method is called: Speed -> " + newSpeed + " Direction -> " + newDirection);
     }
+
+
 
 
 
