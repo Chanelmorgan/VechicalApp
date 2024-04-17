@@ -1,9 +1,29 @@
+/***********************************************************************************************************************
+
+ File        : SUV.java
+
+ Date        : Wednesday 17th April
+
+ Author      : Chanel Morgan
+
+ Description : SUV represents an SUV car, with 4 wheels, 5 doors and 6 gears
+
+ History     : 17/04/2024 - v1.00
+
+ Copyright   : (c) Chanel Morgan, April 2024.
+
+ **********************************************************************************************************************/
 public class SUV extends Car{
 
+    // Constructor
     public SUV(String name, boolean isManual) {
         super(name, 4, 5, 6, isManual, "SUV");
     }
 
+    /**
+     * Accelerates the suv, by a rate giving, and increases to the appropriate gear
+     * @param rate that the suv is accelerating
+     */
     public void accelerate(int rate){
         int newSpeed = getCurrentSpeed() + rate;
         /**

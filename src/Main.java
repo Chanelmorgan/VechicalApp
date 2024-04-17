@@ -1,3 +1,20 @@
+/***********************************************************************************************************************
+
+ File        : Main.java
+
+ Date        : Wednesday 17th April
+
+ Author      : Chanel Morgan
+
+ Description : Main class for running the program that creates the car and runs the move methods on it
+
+ History     : 17/04/2024 - v1.00
+
+ Copyright   : (c) Chanel Morgan, April 2024.
+
+ **********************************************************************************************************************/
+
+
 public class Main {
 
     public static void main(String[] args) {
